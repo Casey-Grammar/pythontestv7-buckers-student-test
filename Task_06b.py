@@ -29,6 +29,15 @@ def main():
     #===============================
     # Write your code here
     
+    input_Word = input("Say: ")
+    #replace o with y
+    new_Word_o_to_y = input_Word.replace('o', 'y')
+    last_Letter = new_Word_o_to_y[-1]
+    new_word_With_Extras = new_Word_o_to_y + last_Letter* 5
+    print("New word!")
+    for letter in new_word_With_Extras:
+        print(letter)
+    print(new_word_With_Extras + '!')
 
     # End of your code here
     #===============================

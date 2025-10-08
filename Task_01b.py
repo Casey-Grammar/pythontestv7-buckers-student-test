@@ -18,7 +18,11 @@ def main():
     x="Task1b"
     #===============================
     # Write your code here
-
+    var = input('Shout: ')
+    print(f'{var} {var} {var}')
+    print()
+    for i in range(0,3):
+        print(var)
 
 
 

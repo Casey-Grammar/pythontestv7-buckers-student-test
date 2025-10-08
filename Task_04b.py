@@ -16,7 +16,14 @@ def main():
     #===============================
     # Write your code here
     
-
+    age = int(input("How old are you? "))
+    if age > 100:
+        years_Until_letter = age - 100
+        print(f'You already got your letter {years_Until_letter} years ago')
+    else:
+        years_Until_letter = 100 - age
+        print("Years until your letter...")
+        print(years_Until_letter) 
     # End of your code here
     #===============================
 

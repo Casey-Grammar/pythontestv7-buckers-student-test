@@ -34,7 +34,11 @@ def main():
     #===============================
     # Write your code here
     
-
+    age = int(input("How old are you? "))
+    years_Until_letter = 100 - age
+    print("Years until your letter...")
+    print(years_Until_letter)    
+    
     # End of your code here
     #===============================
 

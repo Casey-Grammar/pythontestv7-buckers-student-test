@@ -33,7 +33,10 @@ def main():
     x="Task6a"
     #===============================
     # Write your code here
-    
+    input_Word = input("Say: ")
+    last_Letter = input_Word[-1]
+    new_Word = input_Word + last_Letter * 5 + "!"
+    print(new_Word)     
 
     # End of your code here
     #===============================

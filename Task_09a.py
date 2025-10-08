@@ -39,6 +39,17 @@ def main():
     #===============================
     # Write your code here
     
+    racers = input("And the line up is: ")
+    racers_list = racers.split(", ")
+    sleep_Racer = input("Who's gone to sleep? ")
+    if sleep_Racer in racers_list:
+        index = racers_list.index(sleep_Racer)
+        racers_list[index] = "Disqualified"
+        print(f"{sleep_Racer} has been disqualified!")
+    else:
+        print("All snails still awake.")
+        
+    print("Remaining racers: " + ", ".join(racers_list))
 
     # End of your code here
     #===============================

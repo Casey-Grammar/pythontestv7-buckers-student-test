@@ -21,7 +21,12 @@ def main():
     #===============================
     # Write your code here
     
-
+    charge = int(input("Remaining charge: "))
+    if charge > 5:
+        print("All good.")
+    else:
+        print("Connect your charger!")
+        
     # End of your code here
     #===============================
 

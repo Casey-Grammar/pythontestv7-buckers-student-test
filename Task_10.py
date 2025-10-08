@@ -56,6 +56,27 @@ def format_days(short_days):
     #===============================
     # Write your code here
     
+# Dictionary mapping short day names to full day names
+    day_mapping = {
+        'Mon': 'Monday',
+        'Tue': 'Tuesday',
+        'Wed': 'Wednesday',
+        'Thu': 'Thursday',
+        'Fri': 'Friday',
+        'Sat': 'Saturday',
+        'Sun': 'Sunday'
+    }
+    
+    # List to hold the full day names
+    full_days = []
+    
+    # Iterate through the input list and convert to full names
+    short_days_list= short_days.split(',')
+    for day in short_days_list:
+        if day.strip() in day_mapping:
+            full_days.append(day_mapping[day.strip()])
+    
+    return full_days    
 
     # End of your code here
     #===============================

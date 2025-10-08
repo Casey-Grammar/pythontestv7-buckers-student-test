@@ -13,7 +13,8 @@ def main():
     x="Task1a"
     #===============================
     # Write your code here
-  
+    var = input('Shout: ')
+    print(f'{var} {var} {var}')
     
 
     # End of your code here

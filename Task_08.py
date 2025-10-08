@@ -43,7 +43,15 @@ def main():
     x="Task8"
     #===============================
     # Write your code here
-    
+
+    Band = input('Band: ')
+    Songs = input('Songs: ')
+    print(f'Please welcome to the stage, {Band}!')
+    print('They will be playing...')
+    song_list = Songs.split()
+    for song in song_list:
+           print(f'🎵 {song}')
+    print(f'Give it up for {Band}!') 
 
     # End of your code here
     #===============================

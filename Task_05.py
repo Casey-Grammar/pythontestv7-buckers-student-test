@@ -38,6 +38,10 @@ def main():
     # Write your code here
     
 
+    sheep = int(input("How many sheep: "))
+    for i in range(1, sheep + 1):
+        print(f"{i} sheep")
+
     # End of your code here
     #===============================
 

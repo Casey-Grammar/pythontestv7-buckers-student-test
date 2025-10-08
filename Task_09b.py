@@ -28,6 +28,19 @@ def main():
     #===============================
     # Write your code here
     
+    racers = input("And the line up is: ")
+    racers_list = racers.split(", ")
+    sorted_racers_list = sorted(racers_list)
+
+    sleep_Racer = input("Who's gone to sleep? ")
+    if sleep_Racer in sorted_racers_list:
+        sorted_racers_list.remove(sleep_Racer)
+    else:
+        print("All snails still awake.")
+        
+    print("Remaining racers:")
+    for racers in sorted_racers_list:
+        print(racers)
 
     # End of your code here
     #===============================

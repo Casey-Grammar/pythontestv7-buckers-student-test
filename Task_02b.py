@@ -23,7 +23,10 @@ def main():
     #===============================
     # Write your code here
     
-
+    text = input("Text: ")
+    if text.lower() == "marco!":
+        print("Polo!") 
+    
     # End of your code here
     #===============================
 
